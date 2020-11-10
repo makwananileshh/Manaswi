@@ -1,0 +1,419 @@
+@font-face {
+  font-family: PopLight;
+  src: url("fonts/Poppins-Light.ttf");
+
+}
+
+@font-face {
+  font-family: PopRegular;
+  src: url("fonts/Poppins-Regular.ttf");
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: PopRegular;
+
+}
+
+.section4 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-direction: column;
+  align-content: space-around;
+  transition: all 5s ease-in-out;
+}
+
+.imagesTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imagesTop img {
+  height: 150px;
+}
+
+.imagesBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imagesBottom img {
+  height: 150px;
+}
+
+.imagesMiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imagesMiddle img {
+  height: 190px;
+}
+
+.buddies {
+  color: black;
+  display: grid;
+  grid-template-columns: 10% 1fr 2fr;
+
+}
+
+.buddies h3 {
+  grid-column: 2/3;
+  font-family: PopRegular;
+  cursor: pointer;
+}
+
+.buddies-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.link {
+  color: black;
+  font-family: PopRegular;
+  cursor: pointer;
+}
+
+.main {
+
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  z-index: -2;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.content img {
+  height: 70%;
+  grid-column: 3/4;
+}
+
+.content h1 {
+  grid-column: 1/2;
+  font-size: 50px;
+  margin: 30px 0px;
+}
+
+.presentation {
+  grid-column: 2/3;
+}
+
+.forum {
+  background-image: linear-gradient(45deg,
+      #ff9a9e 0%,
+      #fad0c4 99%,
+      #fad0c4 100%);
+}
+
+.maitri {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.vinay {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.mom {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.dad {
+  background-image: linear-gradient(to right,
+      #ff8177 0%,
+      #ff867a 0%,
+      #ff8c7f 21%,
+      #f99185 52%,
+      #cf556c 78%,
+      #b12a5b 100%);
+}
+
+.yug {
+  background-image: linear-gradient(to top,
+      #ff9a9e 0%,
+      #fecfef 99%,
+      #fecfef 100%);
+}
+
+.akshay {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.himanshi {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.krishna {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.pooja {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.nilesh {
+ background-image: linear-gradient(to top,
+      #fdcbf1 0%,
+      #fdcbf1 1%,
+      #e6dee9 100%);
+}
+
+.nav2 {
+  border: black 2px solid;
+  color: black;
+}
+
+.section3 {
+  height: 100vh;
+}
+
+.hero {
+  overflow: hidden;
+  height: 500px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+
+}
+
+.hero img {
+  height: 500px;
+  transition: transform 0.3s ease-out;
+  cursor: pointer;
+}
+
+.model-right {
+  transform: translate(0%, 10%);
+}
+
+.model-left {
+  transform: translate(0%, -10%);
+}
+
+.hero:hover .model-right {
+  transform: translate(0%, 0%);
+}
+
+.hero:hover .model-left {
+  transform: translate(0%, 0%);
+}
+
+.details {
+  grid-column: 2/3;
+  align-self: center;
+}
+
+.details h1 {
+  font-size: 42px;
+  font-family: popRegular;
+}
+
+.portfolio {
+  color: white;
+  background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 25, 1));
+}
+
+
+.page2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page2 h1 {
+  align-self: center;
+  margin: 50px;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+
+.carousel-cell img {
+  height: 400px;
+  display: block;
+  object-fit: cover;
+}
+
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/*Navbar and hover */
+
+
+nav {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  min-height: 10vh;
+  align-content: center;
+  box-shadow: 0 2px 2px -2px white;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  grid-column: 2/3;
+}
+
+.nav-links {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+}
+
+.link-grow {
+  transform: scale(2);
+  background: white;
+  z-index: -1;
+}
+
+.buddies-link-grow {
+  transform: scale(2);
+  background: black;
+  z-index: -1;
+}
+
+.buddies-hovered-link {
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.hovered-link {
+  color: #6fa7d8;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/*Body and background change*/
+body {
+  background: #6fa7d8;
+  transition: all 0.5s ease;
+}
+
+.bg-active {
+  background: white;
+  color: black;
+}
+
+.bg-active-2 {
+  background: red;
+  color: black;
+}
+
+.section1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 90vh;
+}
+
+
+.home {
+  width: 80%;
+  height: 70%;
+  background: url("images/p2.jpg");
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  align-self: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.headline {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 {
+  height: 100vh;
+}
+
+.section3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
