@@ -133,10 +133,9 @@ function change(str) {
       $(".main").append("<div class='content krishna'><div class='presentation'><h1>Krishna Chauhan</h1><p>Mannu happy birthday yaar<br>Vadhre kai tariff nai karvano hu pan aa kau 6u tu je chene aaj reh because aaj kal ke logo ki tarah tu nahi par khudh ke sapno me khoi hui si rehti hai tu or vahi best hai bohot bar hamari harakto ne pareshan kiya hai to vo permanent hai to sehen kar chup chap  or yaar apan se jyada kand sath me kiye nahi hai yaar karna padega kuch stock varna future me khudh khudh ke bacho ko sunna ne ke liye kuch hoga hi nahi.<br>You are a best person mannu i trust you in all things in you thoughts, beliefs, dream everything <br> Happy birthday to youuu </p></div><img class='displayImg' src='./images/krishna.jpg' alt='krishna' /></div>");
       break;
    case 'nilesh':
-      $(".main").append("<div class='content nilesh'><div class='presentation'><h1>Nilesh Makwana</h1><p>Wish You Many Many Happy Returns of The Day "BUSY PERSON",<br> I know you told me not to do anything, but this is a small gift from our side,<br> Zyada kuch likhne nahi wala mai, bss etni si baat boluga,<br>Kuch bhi ho life mai kabhi roona maat and Jese tera smile dikhati hai jab Pizza or  Chocolate ko dekh kar vese Smile karna, <br> And sab sorted. <br> Happy Birthday To You MURU!!!! </p></div><img class='displayImg' src='./images/nilesh.jpg' alt='nilesh' /></div>");
+      $(".main").append("<div class='content nilesh'><div class='presentation'><h1>Nilesh Makwana</h1><p>Wish You Many Many Happy Returns of The Day 'BUSY PERSON',<br> I know you told me not to do anything, but this is a small gift from our side,<br> Zyada kuch likhne nahi wala mai, bss etni si baat boluga,<br>Kuch bhi ho life mai kabhi roona maat and Jese tera smile dikhati hai jab Pizza or  Chocolate ko dekh kar vese Smile karna, <br> And sab sorted. <br> Happy Birthday To You MURU!!!! </p></div><img class='displayImg' src='./images/nilesh.jpg' alt='nilesh' /></div>");
       break;
     default:
-
   }
   Animate();
 
