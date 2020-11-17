@@ -112,16 +112,16 @@ function change(str) {
       $(".main").append("<div class='content maitri'><div class='presentation'><h1>Maitri Patel</h1><p>Here comes your day 🥳🥳🥳🥳 <br>Happiest birthday sweetieeee.... <br>Love you a loads ❤️❤️❤️I have just realized it's been 5 years 😍😍 cheers to our friendship🍻🍻 Hope we remain friends forever and keep sharping our stalking skills😂😂 and yessss one more thing thank me for not uploading your weird photos😂😂, keep smiling ,take care and Corona see Bach na😂😂😂<br>Varna humara logo ko haunt karne ka plan Pani ma Chala jaiga ,ab bus hogaya 😂 jayda tarif nhiii😂😂<br>Once again Happiest birthday stay blessed (girlfriend)❤️😂😂😂</p></div><img class='displayImg'  src='./images/maitri.jpeg' alt='maitri' /></div>");
       break;
     case 'vinay':
-      $(".main").append(" <div class='content vinay'><div class='presentation'><h1>Vinay Waghela</h1><p> </p></div><img class='displayImg' src='./images/vinay.jpg' alt='vinay' /></div>");
+      $(".main").append(" <div class='content vinay'><div class='presentation'><h1>Vinay Waghela</h1><p> Wish you a  very happy birthday Dear Manas💙😀. I wish you get a lot of happiness, success and good health 😇And you keep shining and smiling forever✨😃. Also a special thank to you for handling and understanding me. </p></div><img class='displayImg' src='./images/vinay.jpg' alt='vinay' /></div>");
       break;
     case 'mom':
       $(".main").append(" <div class='content mom'><div class='presentation'><h1>Jigna Gogri</h1><p>To OUR SUNSHINE ...<br> If we could give you 1 thing in this life, we would give u the ability to see urself how we see u every single day <br>perhaps then you would be able to understand just how special you are to us.🎉🎊🎈<br>HAPPIEST BIRTHDAY SWEETHEART 🎈🎊🎉</p></div><img class='displayImg' src='./images/mom.jpg' alt='mom' /></div>");
       break;
     case 'dad':
-      $(".main").append("<div class='content dad'><div class='presentation'><h1>Sunil Gogri</h1><p> </p></div><img class='displayImg' src='./images/dad.jpeg' alt='dad' /></div>");
+      $(".main").append("<div class='content dad'><div class='presentation'><h1>Sunil Gogri</h1><p> You are the reason for my happiness in life, and you'll always be. I could never ask to be blessed with a better daughter. My princess, you're all that fills my heart with happiness. On your birthday, I pray that you will always be happy and loved. </p></div><img class='displayImg' src='./images/dad.jpeg' alt='dad' /></div>");
       break;
     case 'yug':
-      $(".main").append("<div class='content yug'><div class='presentation'><h1>Yug Gogri</h1><p> </p></div><img class='displayImg' src='./images/yug.jpe	g' alt='yug' /></div>");
+      $(".main").append("<div class='content yug'><div class='presentation'><h1>Yug Gogri</h1><p> Sister, we shared so many laughs and thoughts and also boosted each other up when we were down. I believe still there are plenty of sweet memories to come. Have a wonderful birthday. </p></div><img class='displayImg' src='./images/yug.jpe	g' alt='yug' /></div>");
       break;
     case 'akshay':
       $(".main").append(" <div class='content akshay'><div class='presentation'><h1>Akshay Nair</h1><p>Happiest Birthday 🎊fraandd🎂🍰.. School se lekr college takk..<br>Aur aage bhi pata nhi kaha kaha milne waale hai ek hi class me bethne ke liye😂par jahan bhi jaaye teri Gujrati Giri asli hai yeh tune hamesha prove kiya hai🤣😂.. <br>Bhagwaan kare ki aapki Dimaag mese ek acha khasa Psychologist bahar ubhr ke aaye😵😂. <br>Celebrate Your day to it's fullest. 🙌🏻🥳</p></div><img class='displayImg' src='./images/akshay.jpeg' alt='akshay' /></div>");
@@ -132,11 +132,8 @@ function change(str) {
     case 'krishna':
       $(".main").append("<div class='content krishna'><div class='presentation'><h1>Krishna Chauhan</h1><p>Mannu happy birthday yaar<br>Vadhre kai tariff nai karvano hu pan aa kau 6u tu je chene aaj reh because aaj kal ke logo ki tarah tu nahi par khudh ke sapno me khoi hui si rehti hai tu or vahi best hai bohot bar hamari harakto ne pareshan kiya hai to vo permanent hai to sehen kar chup chap  or yaar apan se jyada kand sath me kiye nahi hai yaar karna padega kuch stock varna future me khudh khudh ke bacho ko sunna ne ke liye kuch hoga hi nahi.<br>You are a best person mannu i trust you in all things in you thoughts, beliefs, dream everything <br> Happy birthday to youuu </p></div><img class='displayImg' src='./images/krishna.jpg' alt='krishna' /></div>");
       break;
-    case 'pooja':
-      $(".main").append("<div class='content pooja'><div class='presentation'><h1>Pooja Bhanushali</h1><p> </p></div><img class='displayImg' src='./images/pooja.jpg' alt='pooja' /></div>");
-      break;
    case 'nilesh':
-      $(".main").append("<div class='content nilesh'><div class='presentation'><h1>Nilesh Makwana</h1><p> </p></div><img class='displayImg' src='./images/nilesh.jpg' alt='nilesh' /></div>");
+      $(".main").append("<div class='content nilesh'><div class='presentation'><h1>Nilesh Makwana</h1><p>Wish You Many Many Happy Returns of The Day "BUSY PERSON",<br> I know you told me not to do anything, but this is a small gift from our side,<br> Zyada kuch likhne nahi wala mai, bss etni si baat boluga,<br>Kuch bhi ho life mai kabhi roona maat and Jese tera smile dikhati hai jab Pizza or  Chocolate ko dekh kar vese Smile karna, <br> And sab sorted. <br> Happy Birthday To You MURU!!!! </p></div><img class='displayImg' src='./images/nilesh.jpg' alt='nilesh' /></div>");
       break;
     default:
 
